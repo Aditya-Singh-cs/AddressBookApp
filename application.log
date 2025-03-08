@@ -1,0 +1,6 @@
+2025-03-08T22:19:52.310+05:30  INFO 1424 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 18.0.2.1 with PID 1424 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-08T22:19:52.313+05:30 DEBUG 1424 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08T22:19:52.314+05:30  INFO 1424 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-08T22:19:56.877+05:30  WARN 1424 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-08T22:19:57.416+05:30  INFO 1424 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 5.782 seconds (process running for 6.42)
+2025-03-08T22:19:57.421+05:30  INFO 1424 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
