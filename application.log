@@ -10,3 +10,10 @@
 2025-03-08T22:30:52.626+05:30  WARN 16864 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-03-08T22:30:53.207+05:30  INFO 16864 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 5.474 seconds (process running for 6.027)
 2025-03-08T22:30:53.212+05:30  INFO 16864 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Employee Payroll App started in COMMON environment
+2025-03-08T22:42:58.004+05:30  INFO 12964 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 18.0.2.1 with PID 12964 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-08T22:42:58.007+05:30 DEBUG 12964 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08T22:42:58.008+05:30  INFO 12964 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-08T22:43:02.558+05:30  WARN 12964 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-08T22:43:03.048+05:30  INFO 12964 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 5.669 seconds (process running for 6.348)
+2025-03-08T22:43:03.051+05:30  INFO 12964 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App started in COMMON environment
+2025-03-08T22:43:03.054+05:30  INFO 12964 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book DB user is root
