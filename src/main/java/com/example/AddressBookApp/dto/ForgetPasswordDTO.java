@@ -8,5 +8,6 @@ import lombok.Setter;
 @Setter
 public class ForgetPasswordDTO {
     @NotBlank(message = "Password cannot be empty")
+
     private String password;
 }

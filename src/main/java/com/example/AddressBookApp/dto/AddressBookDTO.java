@@ -7,7 +7,10 @@ import lombok.*;
 @AllArgsConstructor
 public class AddressBookDTO {
     private Long id;
+
     private String name;
+
     private String phone;
+
     private String email;
 }
