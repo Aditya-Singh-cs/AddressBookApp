@@ -2423,3 +2423,24 @@ java.sql.SQLSyntaxErrorException: Table 'addressbook_db.auth_user_seq' doesn't e
 2025-03-13 22:32:48 [http-nio-8080-exec-4] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Fetching all contacts from the database.
 2025-03-13 22:32:51 [http-nio-8080-exec-5] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Fetching contact with ID: 6
 2025-03-13 22:32:51 [http-nio-8080-exec-5] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact found: com.example.AddressBookApp.model.AddressBookModel@7f64fbbc
+2025-03-13 22:41:52 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 4820 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-13 22:41:52 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-13 22:41:52 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½No active profile set, falling back to 1 default profile: "default"
+2025-03-13 22:41:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13 22:41:57 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 5.668 seconds (process running for 6.292)
+2025-03-13 22:41:57 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in null environment
+2025-03-13 22:41:57 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
+2025-03-13 22:42:51 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 23216 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-13 22:42:51 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-13 22:42:51 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½No active profile set, falling back to 1 default profile: "default"
+2025-03-13 22:42:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13 22:42:56 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 5.774 seconds (process running for 6.371)
+2025-03-13 22:42:56 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in null environment
+2025-03-13 22:42:56 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
+2025-03-13 22:43:23 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 20004 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-13 22:43:23 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-13 22:43:23 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-13 22:43:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13 22:43:27 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 4.997 seconds (process running for 5.656)
+2025-03-13 22:43:27 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
+2025-03-13 22:43:27 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
