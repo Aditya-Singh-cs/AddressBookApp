@@ -721,3 +721,15 @@ org.hibernate.NonUniqueResultException: Query did not return a unique result: 6 
 2025-03-14 22:29:47 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
 2025-03-14 22:29:50 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
 2025-03-14 22:29:50 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login successful for user: yash303098@gmail.com
+2025-03-14 22:41:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 2712 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-14 22:41:03 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-14 22:41:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-14 22:41:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-14 22:41:10 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 8.645 seconds (process running for 9.736)
+2025-03-14 22:41:10 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
+2025-03-14 22:41:53 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 20652 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-14 22:41:53 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-14 22:41:53 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-14 22:41:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-14 22:41:59 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 6.472 seconds (process running for 7.099)
+2025-03-14 22:41:59 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
