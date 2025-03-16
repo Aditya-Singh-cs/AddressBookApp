@@ -1,735 +1,248 @@
-2025-03-14 14:38:39 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 22748 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 14:38:39 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 14:38:39 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 14:38:46 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 14:38:46 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 8.185 seconds (process running for 9.168)
-2025-03-14 14:38:46 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 14:38:46 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 14:39:31 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Saving new contact: com.example.AddressBookApp.dto.AddressBookDTO@57f883be
-2025-03-14 14:39:32 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact saved successfully with ID: 16
-2025-03-14 14:39:39 [http-nio-8080-exec-3] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Fetching all contacts from the database.
-2025-03-14 14:39:49 [http-nio-8080-exec-4] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Fetching contact with ID: 16
-2025-03-14 14:39:49 [http-nio-8080-exec-4] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact found: com.example.AddressBookApp.model.AddressBookModel@722aeed
-2025-03-14 14:40:03 [http-nio-8080-exec-5] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Deleting contact with ID: 9
-2025-03-14 14:40:05 [http-nio-8080-exec-5] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact with ID 9 deleted successfully.
-2025-03-14 14:40:09 [http-nio-8080-exec-6] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Registering new user: yash303098@gmail.com
-2025-03-14 14:40:14 [http-nio-8080-exec-6] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
-2025-03-14 14:48:28 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 24508 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 14:48:28 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 14:48:28 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 14:48:35 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 14:48:36 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 8.699 seconds (process running for 9.724)
-2025-03-14 14:48:36 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 14:48:36 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 14:48:49 [http-nio-8080-exec-1] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Saving new contact: com.example.AddressBookApp.dto.AddressBookDTO@1c8f3e2a
-2025-03-14 14:48:49 [http-nio-8080-exec-1] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact saved successfully with ID: 17
-2025-03-14 14:48:56 [http-nio-8080-exec-3] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Fetching all contacts from the database.
-2025-03-14 14:49:01 [http-nio-8080-exec-4] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Fetching contact with ID: 16
-2025-03-14 14:49:09 [http-nio-8080-exec-5] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Updating contact with ID: 2
-2025-03-14 14:49:09 [http-nio-8080-exec-5] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact updated successfully: com.example.AddressBookApp.model.AddressBookModel@44cf63a9
-2025-03-14 14:49:21 [http-nio-8080-exec-6] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Deleting contact with ID: 10
-2025-03-14 14:49:22 [http-nio-8080-exec-6] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact with ID 10 deleted successfully.
-2025-03-14 14:49:27 [http-nio-8080-exec-7] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Registering new user: yash303098@gmail.com
-2025-03-14 14:49:33 [http-nio-8080-exec-7] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
-2025-03-14 14:51:02 [http-nio-8080-exec-10] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 14:51:03 [http-nio-8080-exec-10] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 3 results were returned
-2025-03-14 14:51:03 [http-nio-8080-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+2025-03-16 17:02:14 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 6032 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-16 17:02:14 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 17:02:14 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-16 17:02:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 17:02:23 [container-1] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1483)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 14:52:57 [http-nio-8080-exec-4] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 14:52:57 [http-nio-8080-exec-4] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 3 results were returned
-2025-03-14 14:52:57 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-03-16 17:02:23 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1483)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 14:54:11 [http-nio-8080-exec-6] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 14:54:11 [http-nio-8080-exec-6] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 3 results were returned
-2025-03-14 14:54:11 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-03-16 17:02:23 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 10.139 seconds (process running for 11.333)
+2025-03-16 17:02:23 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
+2025-03-16 17:02:28 [container-1] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:28 [container-2] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:28 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:28 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:33 [container-2] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:33 [container-3] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:33 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:33 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:38 [container-3] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:38 [container-4] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:38 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:38 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:43 [container-4] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:43 [container-5] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:43 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:43 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:48 [container-5] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:48 [container-6] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:48 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:48 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:53 [container-6] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:53 [container-7] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:02:53 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:02:53 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:13 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 5012 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-16 17:03:13 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 17:03:13 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-16 17:03:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 17:03:20 [container-1] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1483)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 14:56:54 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Processing forgot password request for email: yash303098@gmail.com
-2025-03-14 14:56:54 [http-nio-8080-exec-2] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during forgot password process: Query did not return a unique result: 3 results were returned
-2025-03-14 14:56:54 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Error occurred while updating password. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Error occurred while updating password. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.forgotPassword(AuthenticationService.java:119)
-	at com.example.AddressBookApp.controller.AuthUserController.forgotPassword(AuthUserController.java:33)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-03-16 17:03:20 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1483)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 14:59:01 [http-nio-8080-exec-6] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 14:59:01 [http-nio-8080-exec-6] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 3 results were returned
-2025-03-14 14:59:01 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-03-16 17:03:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 7.843 seconds (process running for 8.956)
+2025-03-16 17:03:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
+2025-03-16 17:03:25 [container-1] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:25 [container-2] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:25 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:25 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:30 [container-2] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:30 [container-3] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:31 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:31 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:35 [container-3] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:35 [container-4] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:36 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:36 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:41 [container-4] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:41 [container-5] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:41 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:41 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:46 [container-5] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:46 [container-6] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:46 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:46 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:51 [container-6] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:51 [container-7] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:51 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:51 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:56 [container-7] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:56 [container-8] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:03:56 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:03:56 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:04:01 [container-8] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:04:01 [container-9] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:04:01 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:04:01 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:05:13 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 7240 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-16 17:05:13 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 17:05:13 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-16 17:05:19 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 17:05:20 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1483)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 14:59:06 [http-nio-8080-exec-7] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Registering new user: yash303098@gmail.com
-2025-03-14 14:59:11 [http-nio-8080-exec-7] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
-2025-03-14 14:59:19 [http-nio-8080-exec-9] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 14:59:19 [http-nio-8080-exec-9] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 4 results were returned
-2025-03-14 14:59:19 [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 14:59:57 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Processing forgot password request for email: yash303098@gmail.com
-2025-03-14 14:59:57 [http-nio-8080-exec-2] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during forgot password process: Query did not return a unique result: 4 results were returned
-2025-03-14 14:59:57 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Error occurred while updating password. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Error occurred while updating password. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.forgotPassword(AuthenticationService.java:119)
-	at com.example.AddressBookApp.controller.AuthUserController.forgotPassword(AuthUserController.java:33)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 15:01:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 17036 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 15:01:20 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 15:01:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 15:01:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 15:01:28 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 8.741 seconds (process running for 9.731)
-2025-03-14 15:01:28 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 15:01:28 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 15:01:35 [http-nio-8080-exec-1] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 15:01:35 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 4 results were returned] with root cause
-org.hibernate.NonUniqueResultException: Query did not return a unique result: 4 results were returned
-	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:298)
-	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:281)
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224)
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93)
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:152)
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:140)
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170)
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
-	at jdk.proxy4/jdk.proxy4.$Proxy129.findByEmail(Unknown Source)
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:67)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 22:07:14 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 18916 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:07:14 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:07:14 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:07:19 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:07:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 6.251 seconds (process running for 6.982)
-2025-03-14 22:07:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 22:07:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 22:07:34 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Saving new contact: com.example.AddressBookApp.dto.AddressBookDTO@430c2a20
-2025-03-14 22:07:35 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookServiceï¿½-ï¿½Contact saved successfully with ID: 18
-2025-03-14 22:07:47 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Registering new user: yash303098@gmail.com
-2025-03-14 22:07:52 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
-2025-03-14 22:08:14 [http-nio-8080-exec-4] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 22:08:14 [http-nio-8080-exec-4] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 5 results were returned
-2025-03-14 22:08:14 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 22:16:40 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 14640 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:16:40 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:16:40 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:16:44 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:16:45 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 5.976 seconds (process running for 6.77)
-2025-03-14 22:16:45 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 22:16:45 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 22:19:25 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 5724 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:19:25 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:19:25 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:19:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:19:31 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 6.18 seconds (process running for 6.856)
-2025-03-14 22:19:31 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 22:19:31 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 22:19:39 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 22:19:39 [http-nio-8080-exec-2] ERROR c.e.A.service.AuthenticationServiceï¿½-ï¿½Error during login process: Query did not return a unique result: 5 results were returned
-2025-03-14 22:19:39 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.] with root cause
-com.example.AddressBookApp.exception.UserException: Login failed due to an internal error. Please try again.
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:90)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 22:24:54 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 5656 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:24:54 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:24:54 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:25:03 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:25:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 10.888 seconds (process running for 12.15)
-2025-03-14 22:25:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 22:25:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 22:25:29 [http-nio-8080-exec-1] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Registering new user: yash303098@gmail.com
-2025-03-14 22:25:34 [http-nio-8080-exec-1] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
-2025-03-14 22:25:39 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 22:25:39 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]ï¿½-ï¿½Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 6 results were returned] with root cause
-org.hibernate.NonUniqueResultException: Query did not return a unique result: 6 results were returned
-	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:298)
-	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:281)
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224)
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93)
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:152)
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:140)
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170)
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
-	at jdk.proxy4/jdk.proxy4.$Proxy129.findByEmail(Unknown Source)
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:57)
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2025-03-14 22:29:11 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 16232 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:29:11 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:29:11 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:29:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:29:16 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 5.613 seconds (process running for 6.161)
-2025-03-14 22:29:16 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App started in DEV environment
-2025-03-14 22:29:16 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book DB user is root
-2025-03-14 22:29:42 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Registering new user: yash303098@gmail.com
-2025-03-14 22:29:47 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½User yash303098@gmail.com registered successfully.
-2025-03-14 22:29:50 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login attempt for email: yash303098@gmail.com
-2025-03-14 22:29:50 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationServiceï¿½-ï¿½Login successful for user: yash303098@gmail.com
-2025-03-14 22:41:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 2712 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:41:03 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:41:03 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:41:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:41:10 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 8.645 seconds (process running for 9.736)
-2025-03-14 22:41:10 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
-2025-03-14 22:41:53 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 20652 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
-2025-03-14 22:41:53 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-14 22:41:53 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
-2025-03-14 22:41:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 22:41:59 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 6.472 seconds (process running for 7.099)
-2025-03-14 22:41:59 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-03-16 17:05:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 7.831 seconds (process running for 8.549)
+2025-03-16 17:05:20 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
+2025-03-16 17:05:25 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:05:25 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:05:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:05:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:05:35 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:05:35 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:05:40 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] WARN  o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-16 17:05:40 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] ERROR o.s.a.r.l.SimpleMessageListenerContainerï¿½-ï¿½Failed to check/redeclare auto-delete queue(s).
+2025-03-16 17:07:22 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 7352 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-16 17:07:22 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 17:07:22 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-16 17:07:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 17:07:29 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 7.927 seconds (process running for 8.785)
+2025-03-16 17:07:29 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started
+2025-03-16 17:13:16 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 16372 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-16 17:13:16 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 17:13:16 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-16 17:13:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 17:13:37 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Starting AddressBookAppApplication using Java 18.0.2.1 with PID 14516 (C:\Users\adity\Desktop\Spring\AddressBookApp\target\classes started by root in C:\Users\adity\Desktop\Spring\AddressBookApp)
+2025-03-16 17:13:37 [restartedMain] DEBUG c.e.A.AddressBookAppApplicationï¿½-ï¿½Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 17:13:37 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½The following 1 profile is active: "dev"
+2025-03-16 17:13:44 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfigurationï¿½-ï¿½spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 17:13:45 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Started AddressBookAppApplication in 8.299 seconds (process running for 9.207)
+2025-03-16 17:13:45 [restartedMain] INFO  c.e.A.AddressBookAppApplicationï¿½-ï¿½Address Book App Started

@@ -3,6 +3,7 @@ package com.example.AddressBookApp.controller;
 import com.example.AddressBookApp.dto.AddressBookDTO;
 import com.example.AddressBookApp.dto.ResponseDTO;
 import com.example.AddressBookApp.Interface.AddressBookServiceInterface;
+import com.example.AddressBookApp.service.RabbitMQProducerService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,9 @@ public class AddressBookController {
 
     @Autowired
     AddressBookServiceInterface service;
+
+    @Autowired
+    RabbitMQProducerService rabbitMQProducerService;
 
     // Get all contacts
     @GetMapping("/showcontacts")
@@ -52,4 +56,11 @@ public class AddressBookController {
                 ? ResponseEntity.noContent().build()
                 : ResponseEntity.notFound().build();
     }
+
+    @PostMapping("/send-message")
+    public ResponseEntity<String> sendMessage(@RequestBody String message) {
+        rabbitMQProducerService.sendMessage(message);
+        return ResponseEntity.ok("Message sent to RabbitMQ: " + message);
+    }
+
 }
